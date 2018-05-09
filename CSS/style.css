@@ -2,11 +2,16 @@
 
 
  @media screen and (min-width:768px)and (max-width:1920px){
+	 *{
+		 
+		margin:0px; 
+	 }
 	 
 #menu{
 	height:460px;
 	width:150px;
 	position:fixed;
+	padding:10px;
 	
 	
 }
@@ -17,7 +22,7 @@
 	margin-left:0px;
 	font-size:10px;
 	font-style:inherit;
-	
+	padding:30px;
 	
 }
 
@@ -40,8 +45,10 @@ border-radius:50%;
 	border-top:none;
 	border-bottom:none;
 	border-width:1px;
-
-margin-top:%;
+	display:block;
+padding:20px;
+padding-top:20px;
+margin-top:50%;
 margin-left:0px;
 height:300px;
 width:150px;	
@@ -59,7 +66,7 @@ width:150px;
 
 #left li{
 	display:block;
-	height:50px;
+	
 }
 
 #left li a{
@@ -67,7 +74,10 @@ width:150px;
 	text-decoration:none;
 	display:inline-block;
 	cursor: pointer;
+	line-height:1.5em;
+	text-transform:uppercase;
 	transition:all 0.4s ease;
+	padding-top:15px
 }
 
 
@@ -83,8 +93,8 @@ width:150px;
 
 #title{
 	
-	
-	
+	margin-left:15%;
+	position:relative;
     
  	
 	
@@ -168,7 +178,7 @@ width:150px;
 
 #home{
 
-
+width:100%;
 	
 	
 }
@@ -176,6 +186,7 @@ width:150px;
 #home img{
 	
 	-webkit-filter:opacity(0.7);
+	width:100%;
 	
 }
 

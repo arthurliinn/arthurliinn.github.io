@@ -35,6 +35,11 @@ border-radius:50%;
 	
 }
 
+#top h1{
+	width:30px;
+	
+	
+}
 
 
 
@@ -106,7 +111,7 @@ width:150px;
 	display:block;
 	box-sizing:border-box;
 	top:-380px;
-	left:550px;
+	left:30%;
 	position:relative;
 	font-family:微軟正黑體;
 	color:white;
@@ -178,9 +183,9 @@ width:150px;
 
 #home{
 
-height:50%;
+height:20%;
 	
-	
+position:relative;
 }
 
 #home img{
@@ -217,18 +222,48 @@ height:50%;
 }
 
 #music{
-	width:580px;
-	margin-left:400px;
+	
+	display:block;
+	float:left;
+	
 	
 	
 }
 
-#music iframe{
-	float:none;
-	position:relative;
-	margin:20px;
-	margin-top:20px;
+#soundcloud iframe{
+	
+	float:left;
+	width:30.33%;
+	padding-left:10px;
+	padding-bottom:10px;
+	
+	
+	
+	
+	
 }
+
+#youtube {
+	
+float:left;
+padding-top:10px;
+
+
+	
+}
+
+#youtube iframe{
+	
+float:left;
+padding-left:10px;
+padding-bottom:10px;
+
+width:30.33%;
+	
+}
+
+
+
 
  }
 	

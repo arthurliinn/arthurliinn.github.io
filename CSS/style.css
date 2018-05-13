@@ -541,7 +541,7 @@ width:100%;
 	display:inline-block;
 	cursor: pointer;
 	line-height:1.5em;
-	text-transform:uppercase;
+	
 	transition:all 0.4s ease;
 	padding-top:15px;
 	font-size:13px;

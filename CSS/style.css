@@ -475,6 +475,7 @@ width:30.33%;
 	width:35%;
 	position:fixed;
 	padding:0px;
+	margin-left:-15px;
 	
 	
 }
@@ -543,7 +544,8 @@ width:100%;
 	text-transform:uppercase;
 	transition:all 0.4s ease;
 	padding-top:15px;
-	font-size:14px;
+	font-size:13px;
+	margin-left:-10px;
 }
 
 

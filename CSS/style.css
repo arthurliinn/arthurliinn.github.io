@@ -108,7 +108,7 @@
 	display:block;
 	box-sizing:border-box;
 	top:-380px;
-	left:30%;
+	left:35%;
 	position:relative;
 	font-family:微軟正黑體;
 	color:white;
@@ -137,7 +137,6 @@
 }
 
 #bt4{
-	
 	font-size:20px;
 	height:20px;
 	width:50px;
@@ -145,8 +144,6 @@
 	top:750px;
 	right:100px;
 
-	
-	
 }
 
 
@@ -165,14 +162,6 @@
    	background:#C4C4C4;
   	
 }
- 
-	
-	
-
-
-
-
-
 
 #home{
 
@@ -215,34 +204,23 @@
 }
 
 #soundcloud iframe{
-	
 	float:left;
 	width:30.33%;
 	padding-left:10px;
 	padding-bottom:10px;
 	
-	
-	
-	
-	
 }
 
 #youtube {
-	
     	float:left;
    	padding-top:10px;
-
-
-	
 }
 
 #youtube iframe{
-	
    	float:left;
     	padding-left:10px;
     	padding-bottom:10px;
    	width:30.33%;
-	
 }
 
 

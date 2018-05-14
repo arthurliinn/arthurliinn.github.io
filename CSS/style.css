@@ -2,10 +2,10 @@
 
 
  @media screen and (min-width:768px)and (max-width:1920px){
-	 *{
-		padding:0px;
-		margin:0px; 
-	 }
+	*{
+	padding:0px;
+	margin:0px; 
+	}
 	 
 #menu{
 	height:460px;
@@ -27,9 +27,9 @@
 }
 
 #top img{
-height:80px;
-border-style:none;
-border-radius:50%;
+	height:80px;
+	border-style:none;
+	border-radius:50%;
 
 
 	
@@ -116,7 +116,7 @@ border-radius:50%;
 	font-family:微軟正黑體;
 	color:white;
 	font-weight:900;
-        font-size:50px;
+    font-size:50px;
 	text-align:center;
 	border:solid white;
 	border-width:8px;
@@ -184,7 +184,6 @@ border-radius:50%;
 #home{
 
     height:20%;
-	
     position:relative;
 }
 
@@ -209,25 +208,17 @@ border-radius:50%;
 
 
 #works{
-	
-    	
     border-style:none;
 	border-top:solid;
 	padding-bottom:10px;
-	
-	
 	font-family:微軟正黑體;	
 	
 	
 }
 
-#music{
-	
+#music{	
 	display:block;
 	float:left;
-	
-	
-	
 }
 
 #soundcloud iframe{
@@ -276,7 +267,7 @@ border-radius:50%;
 	
 	*{
 		 
-		margin:0px; 
+	margin:0px; 
 	}
 	 
 #menu{
@@ -301,15 +292,10 @@ border-radius:50%;
     height:80px;
     border-style:none;
     border-radius:50%;
-
-
-	
 }
 
 #top h1{
 	width:30px;
-	
-	
 }
 #left{
     border-style:solid;
@@ -332,8 +318,6 @@ border-radius:50%;
 	margin-top:5em;
 	font-size:15px;
 	margin-left:-13px;
-	
-	
 	
 }
 
@@ -368,30 +352,20 @@ border-radius:50%;
 	left:25%;
 	position:relative;
 	width:55%
-    
- 	
-	
 }
-
-
-
 	
 #home{
-
 	height:20%;
-	
 	position:relative;
 }
 
 #home img{
-	
 	-webkit-filter:opacity(0.7);
 	width:100%;
 	
 }
 
 #intro{
-	
     border-style:none;
 	border-top:solid;
 	line-height:1.75em;
@@ -402,51 +376,30 @@ border-radius:50%;
 
 
 #works{
-	
-    	
     border-style:none;
 	border-top:solid;
 	padding-bottom:10px;
-	
-	
 	font-family:微軟正黑體;	
-	
-	
 }
 
 #music{
-	
 	display:block;
 	float:left;
-	
-	
-	
 }
 
 #soundcloud iframe{
-	
 	float:left;
 	width:30.33%;
 	padding-left:10px;
 	padding-bottom:10px;
-	
-	
-	
-	
-	
 }
 
 #youtube {
-	
 	float:left;
 	padding-top:10px;
-
-
-	
 }
 
 #youtube iframe{
-	
 	float:left;
 	padding-left:10px;
 	padding-bottom:10px;
@@ -489,15 +442,10 @@ border-radius:50%;
 	height:80px;
 	border-style:none;
 	border-radius:50%;
-
-
-	
 }
 
 #top h1{
-	width:30px;
-	
-	
+	width:30px;	
 }
 #left{
     border-style:solid;
@@ -517,10 +465,7 @@ border-radius:50%;
 #left ul{
 	display:block;
 	list-style-type:none;
-	margin-top:5em;
-	
-	
-	
+	margin-top:5em;	
 }
 
 
@@ -544,10 +489,7 @@ border-radius:50%;
 
 #left li a:hover{
     color:gray;
-	border-bottom:solid 1px black;
-		
-	
-	
+	border-bottom:solid 1px black;	
 }
 
 #title{
@@ -564,21 +506,17 @@ border-radius:50%;
 
 	
 #home{
-
 	height:20%;
-	
 	position:relative;
 }
 
-#home img{
-	
+#home img{	
 	-webkit-filter:opacity(0.7);
 	width:100%;
 	
 }
 
 #intro{
-	
     border-style:none;
 	border-top:solid;
 	line-height:1.75em;
@@ -588,46 +526,28 @@ border-radius:50%;
 
 
 
-#works{
-	
-    	
+#works{	
     border-style:none;
 	border-top:solid;
 	padding-bottom:10px;
 	padding-left:10px;
-
-	
-	
 	font-family:微軟正黑體;	
-	width:100%;
-	
-	
+	width:100%;	
 }
 
 #music{
-	
 	display:block;
 	float:left;
-	
-	
-	
 }
 
 #soundcloud iframe{
-	
 	float:left;
 	width:80%;
 	padding-left:10px;
 	padding-bottom:10px;
-	
-	
-	
-	
-	
 }
 
 #youtube {
-	
 	float:left;
 	padding-top:10px;
 
@@ -636,7 +556,6 @@ border-radius:50%;
 }
 
 #youtube iframe{
-	
 	float:left;
 	padding-left:10px;
 	padding-bottom:10px;

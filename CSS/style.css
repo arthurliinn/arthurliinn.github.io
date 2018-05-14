@@ -30,9 +30,6 @@
 	height:80px;
 	border-style:none;
 	border-radius:50%;
-
-
-	
 }
 
 #top h1{
@@ -51,11 +48,11 @@
 	border-bottom:none;
 	border-width:1px;
 	display:block;
-    padding:20px;
-    padding-top:20px;
-    margin-left:0px;
-    height:300px;
-    width:150px;	
+ 	padding:20px;
+  	padding-top:20px;
+ 	margin-left:0px;
+ 	height:300px;
+ 	width:150px;	
 	
 }
 
@@ -87,7 +84,7 @@
 
 
 #left li a:hover{
-    color:gray;
+    	color:gray;
 	border-bottom:solid 1px black;
 		
 	
@@ -116,7 +113,7 @@
 	font-family:微軟正黑體;
 	color:white;
 	font-weight:900;
-    font-size:50px;
+   	font-size:50px;
 	text-align:center;
 	border:solid white;
 	border-width:8px;
@@ -134,13 +131,9 @@
 }
 
 #learn:hover{
-	
 	border-width:5px;
 	font-weight:700;
 	transform:scale(1.1,1.1);
-	
-	
-	
 }
 
 #bt4{
@@ -169,7 +162,7 @@
 }
 
 #bt4 h2:hover{
-    background:#C4C4C4;
+   	background:#C4C4C4;
   	
 }
  
@@ -183,8 +176,8 @@
 
 #home{
 
-    height:20%;
-    position:relative;
+   	height:20%;
+    	position:relative;
 }
 
 #home img{
@@ -198,7 +191,7 @@
 
 #intro{
 	
-    border-style:none;
+    	border-style:none;
 	border-top:solid;
 	line-height:1.75em;
 	font-family:微軟正黑體;
@@ -208,7 +201,7 @@
 
 
 #works{
-    border-style:none;
+    	border-style:none;
 	border-top:solid;
 	padding-bottom:10px;
 	font-family:微軟正黑體;	
@@ -236,8 +229,8 @@
 
 #youtube {
 	
-    float:left;
-    padding-top:10px;
+    	float:left;
+   	padding-top:10px;
 
 
 	
@@ -245,10 +238,10 @@
 
 #youtube iframe{
 	
-    float:left;
-    padding-left:10px;
-    padding-bottom:10px;
-    width:30.33%;
+   	float:left;
+    	padding-left:10px;
+    	padding-bottom:10px;
+   	width:30.33%;
 	
 }
 
@@ -289,9 +282,9 @@
 }
 
 #top img{
-    height:80px;
-    border-style:none;
-    border-radius:50%;
+    	height:80px;
+    	border-style:none;
+    	border-radius:50%;
 }
 
 #top h1{
@@ -340,7 +333,7 @@
 
 
 #left li a:hover{
-    color:gray;
+    	color:gray;
 	border-bottom:solid 1px black;
 		
 	
@@ -415,8 +408,8 @@
 @media screen and (max-width:480px){
 	
 	*{
-		 
-		margin:0px; 
+	padding:0px;	 
+        margin:0px; 
 	}
 	 
 #menu{
@@ -488,7 +481,7 @@
 
 
 #left li a:hover{
-    color:gray;
+    	color:gray;
 	border-bottom:solid 1px black;	
 }
 
@@ -497,9 +490,7 @@
 	left:26%;
 	position:relative;
 	width:50%
-    
- 	
-	
+
 }
 
 
@@ -517,7 +508,7 @@
 }
 
 #intro{
-    border-style:none;
+    	border-style:none;
 	border-top:solid;
 	line-height:1.75em;
 	font-family:微軟正黑體;
@@ -527,7 +518,7 @@
 
 
 #works{	
-    border-style:none;
+    	border-style:none;
 	border-top:solid;
 	padding-bottom:10px;
 	padding-left:10px;

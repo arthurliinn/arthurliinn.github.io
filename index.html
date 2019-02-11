@@ -7,9 +7,9 @@
   <link href="CSS/style.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-1.11.3.min.js" language="javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script language="javascript">
-    
-    $(document).ready(function () {
+  <script language="javascript">
+
+    /*$(document).ready(function () {
       $('#learn').click(function () {
         $('html,body').animate({ scrollTop: $('#intro').offset().top }, 800);
       });
@@ -29,15 +29,27 @@
       $('#gotop').click(function () {
         $('html,body').animate({ scrollTop: $('#title').offset().top }, 800);
       });
+      */
 
 
 
-
-    })
-
+    //})
 
 
-  
+
+    $(function () {
+      $('a.scroll').bind('click', function (event) {
+        var $anchor = $('this');
+        $('html,body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 2800, 'easeOutBounce');
+        event.preventDefault();
+      });
+
+    });
+
+
+
 
 
 // $('.menu-item').on('click',function(){ $('html,body').animate({scrollTop;  $($(this).sttr("href")).offset().top, 800);}}
@@ -58,13 +70,13 @@
     <div id="left">
       <ul>
         <li>
-          <a id="bt1" class="menu-item">Home</a>
+          <a href="#home" class="menu-item">Home</a>
         </li>
         <li>
-          <a id="bt2" class="menu-item">Introduction</a>
+          <a href="#intro" class="menu-item">Introduction</a>
         </li>
         <li>
-          <a id="bt3" class="menu-item">works</a>
+          <a href="#works" class="menu-item">works</a>
         </li>
 
 
@@ -77,10 +89,10 @@
 
   <div id="title">
     <div id="home">
-      <img src="image/APA.jpg" alt=""  />
+      <img src="image/APA.jpg" alt="" />
 
       <div id="learn">
-        <a>Learn more</a>
+        <a href="#intro">Learn more</a>
 
 
       </div>
@@ -108,41 +120,41 @@
 
       <div id="music">
         <div id="soundcloud">
-        <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334539157&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+          <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334539157&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
-        <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330740704&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+          <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330740704&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
-        <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322870710&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+          <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322870710&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
-        <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322870491&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+          <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322870491&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
-</div>
-        
-<div id="youtube">
-        <iframe src="https://www.youtube.com/embed/1NVxrwnVSaw" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+        </div>
 
-        <iframe  src="https://www.youtube.com/embed/hZJS4wuDT5o" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+        <div id="youtube">
+          <iframe src="https://www.youtube.com/embed/1NVxrwnVSaw" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-        <iframe  src="https://www.youtube.com/embed/6llsXa3zzDM" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/hZJS4wuDT5o" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-        <iframe  src="https://www.youtube.com/embed/wJUVQHaJXeM" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/6llsXa3zzDM" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-        <iframe  src="https://www.youtube.com/embed/uhAFYiwK18M" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/wJUVQHaJXeM" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-        <iframe  src="https://www.youtube.com/embed/wqeOImSyzb0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/uhAFYiwK18M" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-        <iframe src="https://www.youtube.com/embed/ly_JyI62LS0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/wqeOImSyzb0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+
+          <iframe src="https://www.youtube.com/embed/ly_JyI62LS0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
 
 
-</div>
+        </div>
       </div>
 
 

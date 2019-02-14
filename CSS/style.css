@@ -21,11 +21,14 @@
 		z-index: 1;
 		border-radius: 10px;
 		background-color: rgba(224,255,255,.7);		 
+		padding: 3em;
 	 }
 
 	 #top img{
 		position: relative;
 		border-radius: 50%;
+		width: 200px;
+
 		
 	 }
 
@@ -70,7 +73,19 @@
 		text-transform: uppercase;
 	 }
  
-	
+	#ex_list{
+		line-height: 2em;
+	}
+
+	#ex_list li{
+		margin-top:2em;
+		margin-left: 5em;
+		padding: 2em;
+		background-color: rgba(0,0,0,.1); 
+		display: inline-block;
+		border-radius: 5%;
+		
+	}
 	
 	
 	

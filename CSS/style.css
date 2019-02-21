@@ -86,8 +86,110 @@
 		border-radius: 5%;
 		
 	}
+
+	#title_web{
+		margin-left: 500px;
+    	margin-top: 100px;
+    	width: 300px;
+    	position: relative;
+	}
+	#title_web2{
+		margin-top: -40px;
+		margin-right:-600px; 
+    	position: relative;
+	}
+
+	#workLists{
+		display: inline-block;
+		width: 100vw;
+	}
+	#arrowImg01{
+		float: left;
+		width: 200px;
+		margin-left: 450px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		/*height: 0px;*/
+	}
+	#arrowImg02{
+		position: relative;
+		margin-right: -50px;
+		margin-top: 20px;
+		width: 150px;
+		/*height: 0px;*/
+
+	}
+
+	.works_web{
+		height: 225px;
+		padding: 15px;
+		font-size: 30px;
+		border-radius:10px; 
+		display: inline-block;
+		background-color:rgba(158, 219, 223, .9);
+		overflow: hidden;
+		
+	}
 	
-	
+	#worksList01{
+		position: relative;
+		font-size: 2.5em;
+		width: 750px;
+		/*height: 0px;*/
+		line-height: 2em;
+		float: left;
+		overflow: hidden;
+		
+		
+		
+	}
+
+	#worksList02{
+		position: absolute;
+		display: inline-block;
+		width: 700px;
+		line-height: 2em;
+		margin-top:10px; 
+		/*height: 0px;*/
+		overflow: hidden;
+		right: 100px;
+
+		
+		
+	}
+
+	#worksList01 li{
+		margin-top: 20px;;
+	}
+
+	#worksList02 li{
+		margin-top: 20px;
+		margin-left: 150px;
+	}
+
+
+	.works_game{
+		position: relative;
+		height: 225px;
+		padding: 15px;
+		font-size: 30px;
+		border-radius:10px; 
+		display: inline-block;
+		background-color:rgba(158, 219, 223, .9);
+	}
+	.works_web a{
+		text-decoration: none;
+		height: 0;
+	}
+
+	.works_web img{
+		width: 400px;
+		height: 225px;
+	}
+	.work02, .work04{
+		margin-left:10em;
+
+	}
 	
  }
 	

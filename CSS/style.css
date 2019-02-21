@@ -56,21 +56,34 @@
 		line-height: 2.5em;
 		background-color: #e0ffff;
 	 }
-
+	 .mainTitle{
+		 background-color: rgb(163, 204, 224);
+		 padding-top: 0.3em;
+		 padding-bottom: 0.3em;
+		 width: 300px;
+		 display: inline-block;
+		 border-radius:4px; 
+		}
+	#intro{
+		border-bottom: 1px solid #092ae74d;
+		padding-bottom: 20px;
+	}
 	 #introBody{
 		padding-top:50px; 
 		text-transform: uppercase;
 	 }
 	 #introBody h1{
-		 padding-bottom:0.5em; 
+		 margin-bottom:0.5em; 
 	 }
 	 #works{
-		margin-top:80px;
+		margin-top:50px;
 		text-transform: uppercase;
 	 }
 	 #experience{
-		margin-top: 80px;
+		margin-top: 50px;
 		text-transform: uppercase;
+		border-bottom: 1px solid #092ae74d;
+		padding-bottom: 20px;
 	 }
  
 	#ex_list{

@@ -5,12 +5,17 @@
   <meta charset="utf-8">
   <title>林子堯の個人網站</title>
   <link href="CSS/style.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-1.11.3.min.js" language="javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 
 </head>
 
 <body>
+  <div id="loadingPage">
+    <div id="loadContainer">
+      <p>loading...</p>
+      <div id="loader"></div>
+    </div>
+  </div>
   <div id=webBody>
     <div id="top">
       <img src="image/LOGO.png" />
@@ -49,40 +54,40 @@
         <div id="skill">
 
           <ul>
-            <li>Photoshop
-              <span class="level"><span class="percent">80%</span>
+            <li>Photoshop -- Excellent
+              <span class="level level-3"><span class="percent">90%</span>
               </span>
             </li>
-            <li>Illustrator
-              <span class="level"><span class="percent">80%</span>
+            <li>Illustrator -- Great
+              <span class="level level-2"><span class="percent">80%</span>
               </span>
             </li>
-            <li>Premiere
-              <span class="level"><span class="percent">80%</span>
+            <li>Premiere -- Great
+              <span class="level level-2"><span class="percent">80%</span>
               </span>
             </li>
-            <li>Aftereffect
-              <span class="level"><span class="percent">80%</span>
+            <li>Aftereffect -- Not Bad
+              <span class="level level-1"><span class="percent">60%</span>
               </span>
             </li>
-            <li>HTML
-              <span class="level"><span class="percent">80%</span>
+            <li>HTML -- Excellent
+              <span class="level level-3"><span class="percent">90%</span>
               </span>
             </li>
-            <li>CSS
-              <span class="level"><span class="percent">80%</span>
+            <li>CSS -- Great
+              <span class="level level-2"><span class="percent">80%</span>
               </span>
             </li>
-            <li>javascript
-              <span class="level"><span class="percent">80%</span>
+            <li>javascript -- Great
+              <span class="level level-2"><span class="percent">80%</span>
               </span>
             </li>
-            <li>Bootsrap
-              <span class="level"><span class="percent">80%</span>
+            <li>Bootsrap -- Not Bad
+              <span class="level level-1"><span class="percent">60%</span>
               </span>
             </li>
-            <li>Vue.js
-              <span class="level"><span class="percent">80%</span>
+            <li>Vue.js -- Not Bad
+              <span class="level level-1"><span class="percent">60%</span>
               </span>
             </li>
           </ul>
@@ -124,26 +129,28 @@
         <ul id="workLists">
 
           <li>
-            <div class="works_web work01"><a href="https://arthurliinn.github.io/CSS-web-pratice01"><img src="./image/img01.png">
+            <div class="works_web work01"><a target="_blank" href="https://arthurliinn.github.io/CSS-web-pratice01"><img
+                  src="./image/img01.png">
               </a>
             </div>
 
           </li>
 
           <li>
-            <div class="works_web work02"><a href="https://arthurliinn.github.io/moodle-fake/"><img src="./image/img02.png"></a>
+            <div class="works_web work02"><a target="_blank" href="https://arthurliinn.github.io/moodle-fake/"><img src="./image/img02.png"></a>
 
             </div>
 
           </li>
           <li>
-            <div class="works_web work03"><a href="https://arthurliinn.github.io/mountant/index.html"><img src="./image/img03.png"></a>
+            <div class="works_web work03"><a target="_blank" href="https://arthurliinn.github.io/mountant/index.html"><img
+                  src="./image/img03.png"></a>
 
             </div>
 
           </li>
           <li>
-            <div class="works_web work04"><a href="https://arthurliinn.github.io/add-list/"><img src="./image/img04.png"></a>
+            <div class="works_web work04"><a target="_blank" href="https://arthurliinn.github.io/add-list/"><img src="./image/img04.png"></a>
 
             </div>
 
@@ -157,24 +164,19 @@
 
       </div>
       <footer id="footer">
-        <div>
+        <div id="footerBody">
           <h3>connect me</h3>
-
+          <a class="footerBtn" href="mailto:arthurliinn@gmail.com">Email</a><br>
+          <a class="footerBtn" target="_blank" href="https://www.facebook.com/arthur.linn">Facebook</a>
         </div>
       </footer>
     </div>
   </div>
-  </div>
 
 
 
-
-
-
-
-
-
-  </div>
+  <script src="js/jquery-1.11.3.min.js" language="javascript"></script>
+  <script src="js/main.js" language="javascript"></script>
 </body>
 
 

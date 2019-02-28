@@ -227,13 +227,13 @@
 	#loadContainer{
 		position: fixed;
 		margin-top: 45vh;
-		margin-left: 48vw;
+		margin-left: 45vw;
 	}
 	#loadContainer p{
 		position: fixed;
 		height: 40px;
-		left: 970px;
-		top:40px
+		left: 910px;
+		top:35px
 	}
 	#loader {
 		border: 16px solid #f3f3f3;

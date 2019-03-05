@@ -366,6 +366,8 @@
 	 #introBody{
 		padding-top:50px; 
 		text-transform: uppercase;
+		width: 84vw;
+		margin-left: 6vw;
 	 }
 	 #introBody h1{
 		 margin-bottom:0.5em; 
@@ -433,8 +435,8 @@
 		
 	}
 	#ex_list li{
+		max-width: 300px;
 		margin-top:2em;
-		margin-left: 10px;
 		padding: 2em;
 		background-color: rgba(0,0,0,.1); 
 		display: inline-block;
@@ -452,8 +454,6 @@
 
 	#workLists li{
 		display: inline-block;
-		width: 430px;
-		margin-left: 20px;
 		margin-top: 20px;
 	}
 
@@ -470,11 +470,15 @@
 	}
 	.works_game{
 		display: inline-block;
+		width: 300px;
 		height: 225px;
 		padding: 15px;
 		font-size: 30px;
 		border-radius:10px; 
 		background-color:rgba(158, 219, 223, .9);
+	}
+	.works_game iframe{
+		width: 300px;
 	}
 	.works_web a{
 		text-decoration: none;
@@ -483,7 +487,7 @@
 	}
 
 	.works_web img{
-		width: 400px;
+		width: 330px;
 		height: 225px;
 	}
 	.workText{

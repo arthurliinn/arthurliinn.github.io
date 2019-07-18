@@ -217,19 +217,19 @@
 	}
 	.wText01{
 		margin-top: -240px;
-		padding: 100px;
+		padding: 100px 65px;
 	}
 	.wText02{
 		margin-top: -240px;
-		padding: 100px 60px;
+		padding: 100px 25px;
 	}
 	.wText03{
 		margin-top: -240px;
-		padding: 100px 76px;
+		padding: 100px 45px;
 	}
 	.wText04{
 		margin-top: -240px;
-		padding: 100px;
+		padding: 100px 65px;
 	}
 	#footer{
 		background-color: #a3cded;
@@ -314,12 +314,14 @@
 		overflow-x:hidden;
 	}
 	 #top{
+		height: 70vh;
+		width: auto;
 		position: absolute;
 		text-align: center;
 		margin-left:-160px; 
 		line-height: 3em;
-		left: 50%;
-		top: 200px;
+		left: 55%;
+		top: 10vh;
 		z-index: 1;
 		border-radius: 10px;
 		background-color: rgba(224,255,255,.7);		 
@@ -329,7 +331,8 @@
 	 #top img{
 		position: relative;
 		border-radius: 50%;
-		width: 200px;
+		width: 100px;
+		height: auto;
 
 		
 	 }

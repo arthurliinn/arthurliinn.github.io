@@ -32,3 +32,17 @@ $(window).scroll(function(){
     });*/
 });
 
+
+//work introduce
+
+$('#WalledCity_video').mouseover(function(){
+    $('#intro_walledCity').css("height","400px");
+    $('#intro_walledCity').css("padding","30px");
+    $('#workLists li:nth-child(6)').css("z-index","20");
+    $('.video_game').css("z-index","20");
+    $('#WalledCity_video').css("z-index","20");
+    $('#intro_walledCity p').css("opacity","1");
+    $('#graySolid').css("height","100vh");
+
+})
+

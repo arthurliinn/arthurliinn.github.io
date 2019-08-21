@@ -183,7 +183,7 @@
 		
 		
 	}
-	.works_game{
+	.works_video{
 		display: inline-block;
 		height: 260px;
 		padding: 15px;
@@ -206,7 +206,7 @@
 		position: relative;
 		float: left;
 		display: inline-block;
-		
+		z-index: 1;
 		background-color: #85b7c4;
 		color: #717171;
 		font-size: 13px;
@@ -249,10 +249,48 @@
 		margin-top: -240px;
 		padding: 100px 100px;
 	}
+	.wText05{
+		margin-top: -240px;
+		padding:100px 110px;
+	}
 	#footer{
 		background-color: #a3cded;
 		padding-bottom: 30px
 		
+	}
+
+	.videoTntro{
+		position: fixed;
+		font-size: 20px;
+		background: rgba(255, 255, 255, 0.95);
+		overflow: hidden;
+		left: 38vw;
+		top:200px;
+		z-index: 30;
+		
+		
+	}
+	.videoTntro p{
+		text-align: left;
+		opacity: 0;
+		transition: all 1s ease-in;
+	}
+	#intro_walledCity{
+		width: 400px; 
+		height: 00px;/*400*/
+		border-radius: 20px;
+		padding: 0px;/*30*/
+		transition: all .5s ease-in-out;
+		
+		
+	}
+	#graySolid{
+		position: fixed;
+		width: 100vw;
+		height: 0vh;/*100*/
+		top: 0;
+		background: #22222262;
+		z-index: 20;
 	}
 	#footerBody{
 		padding-top: 30px;
@@ -489,7 +527,8 @@
 
 	.works_web{
 		display: inline-block;
-		height: 225px;
+		height: 260px;
+		width: 300px;
 		padding: 15px;
 		font-size: 30px;
 		border-radius:10px; 
@@ -497,16 +536,16 @@
 		
 		
 	}
-	.works_game{
+	.works_video{
 		display: inline-block;
 		width: 300px;
-		height: 225px;
+		height: 260px;
 		padding: 15px;
 		font-size: 30px;
 		border-radius:10px; 
 		background-color:rgba(158, 219, 223, .9);
 	}
-	.works_game iframe{
+	.works_video iframe{
 		width: 300px;
 	}
 	.works_web a{
@@ -516,8 +555,25 @@
 	}
 
 	.works_web img{
-		width: 330px;
+		width: 300px;
 		height: 225px;
+	}
+	.works_class{
+		position: relative;
+		float: left;
+		display: inline-block;
+		
+		background-color: #85b7c4;
+		color: #717171;
+		font-size: 13px;
+		text-transform: none;
+		width: 60px;
+		height: 30px;
+		border-radius: 1000px;
+		line-height: 30px;
+	}
+	.works_class:nth-child(3){
+		margin-left: 10px;
 	}
 	.workText{
 		position: absolute;
@@ -548,6 +604,49 @@
 	.wText04{
 		margin-top: -240px;
 		padding: 100px;
+	}
+	.wText05{
+		margin-top: -240px;
+		padding:100px;
+	}
+
+	.videoTntro{
+		position: fixed;
+		font-size: 20px;
+		background: rgba(255, 255, 255, 0.95);
+		overflow: hidden;
+		left: 38vw;
+		top:200px;
+		
+		
+	}
+	.videoTntro p{
+		text-align: left;
+		opacity: 0;
+		transition: all 1s ease-in;
+	}
+	#intro_walledCity{
+		width: 400px; 
+		height: 00px;/*400*/
+		border-radius: 20px;
+		padding: 0px;/*30*/
+		transition: all .5s ease-in-out;
+		
+		
+	}
+	#graySolid{
+		position: fixed;
+		width: 100vw;
+		height: 0vh;/*100*/
+		top: 0;
+		background: #22222262;
+	}
+	#graySolid{
+		position: fixed;
+		width: 100vw;
+		height: 0vh;/*100*/
+		top: 0;
+		background: #22222262;
 	}
 	#footer{
 		background-color: #a3cded;

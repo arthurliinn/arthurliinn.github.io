@@ -9,7 +9,7 @@
  }
 
 
- @media screen and (max-width:1920px){
+ @media screen  and (min-width:768px) and (max-width:1920px){
 	 
 	#webBody{
 		opacity: 0;
@@ -404,7 +404,7 @@
 @media screen and (max-width:768px){	
 	
 	#webBody{
-		opacity: 0;
+		opacity: 1;
 	
 	}
 
@@ -413,14 +413,14 @@
 		overflow-x:hidden;
 	}
 	 #top{
-		height: 70vh;
+		height: 80vh;
 		width: auto;
 		position: absolute;
 		text-align: center;
 		margin-left:-160px; 
 		line-height: 3em;
-		left: 55%;
-		top: 10vh;
+		left: 57%;
+		top: 2vh;
 		z-index: 1;
 		border-radius: 10px;
 		background-color: rgba(224,255,255,.7);		 
@@ -438,9 +438,10 @@
 
 	 #background{
 		width: auto;
-		height: 100vh;
+		height:auto;
 		white-space: nowrap;
 		left:0.5vw;
+		display: inline-block
 		 
 		 
 	 }
@@ -450,8 +451,8 @@
 		width: 100vw;
 		height: 50vh;
 		opacity: .6;
-		display:inline-block;
-		float: left;
+		display:flex;
+		
 		 
 	 }
 	 
@@ -678,6 +679,54 @@
 		
 		
 	}
+	#intro_walledCity{
+		width: 400px; /*400*/
+		height: 00px;/*400*/
+		left: 39vw;
+		border-radius: 20px;
+		padding: 30px;/*30*/
+		opacity: 0;
+		transition: all .5s ease-in;
+		overflow: hidden;
+		
+		
+	}
+	#intro_myAlbum{
+		width: 400px; /*400*/
+		height: 00px;/*400*/
+		left: 37vw;
+		border-radius: 20px;
+		padding: 0px;/*30*/
+		opacity: 0;
+		transition: all .5s ease-in;
+		overflow: hidden;
+		
+		
+	}
+	#intro_MSOP01{
+		width: 400px; /*400*/
+		height: 00px;/*400*/
+		left: 37vw;
+		border-radius: 20px;
+		padding: 0px;/*30*/
+		opacity: 0;
+		transition: all .5s ease-in;
+		overflow: hidden;
+		
+		
+	}
+	#intro_MSOP02{
+		width: 400px; /*400*/
+		height: 00px;/*400*/
+		left: 37vw;
+		border-radius: 20px;
+		padding: 0px;/*30*/
+		opacity: 0;
+		transition: all .5s ease-in;
+		overflow: hidden;
+		
+	}
+
 	#graySolid{
 		position: fixed;
 		width: 100vw;
@@ -729,7 +778,7 @@
 	#loadContainer p{
 		position: absolute;
 		height: 40px;
-		left:11vw;
+		left:8vw;
 		top:-40vh;
 	}
 	#loader {
@@ -741,6 +790,7 @@
 		height: 120px;
 		-webkit-animation: spin 2s linear infinite; /* Safari */
 		animation: spin 2s linear infinite;
+		left: 10%;
 	  }
 
 	  /* Safari */

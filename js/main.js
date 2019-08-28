@@ -45,7 +45,7 @@ $('#WalledCity_video').mouseover(function(){
     $('.video_game').css("z-index","20");
     $('.video_game').css("position","absolute");
     $('.video_game').css("right","14.2vw");
-    $('.video_game').css("top","2810px");
+    $('.video_game').css("top","2880px");
     
     $('#intro_walledCity p').css("opacity","1");
     $('#graySolid').css("height","100vh");
@@ -56,7 +56,7 @@ $('#WalledCity_video').mouseout(function(){
     $('.videoIntro p').css("display","none");
     $('#intro_walledCity').css("opacity","0");
     $('#intro_walledCity').css("left","39vw");
-    $('#intro_myAlbum').css("height","0px");
+    $('#intro_walledCity').css("height","0px");
     $('#intro_walledCity').css("padding","0px");
     //zoom videobox
     $('.video_game').css("z-index","1");
@@ -66,6 +66,8 @@ $('#WalledCity_video').mouseout(function(){
     
     $('#intro_walledCity p').css("opacity","0");
     $('#graySolid').css("height","00vh");
+
+    $('.videoIntro').ccs("height","0px");
 
 })
 
@@ -80,7 +82,7 @@ $('#album_video').mouseover(function(){
     $('.video_album').css("z-index","20");
     $('.video_album').css("position","absolute");
     $('.video_album').css("left","15.2vw");
-    $('.video_album').css("top","3120px");
+    $('.video_album').css("top","3190px");
     
     $('#intro_myAlbum p').css("opacity","1");
     $('#graySolid').css("height","100vh");
@@ -101,6 +103,8 @@ $('#album_video').mouseout(function(){
     
     $('#intro_myAlbum p').css("opacity","0");
     $('#graySolid').css("height","0vh");
+
+    $('.videoIntro').ccs("height","0px");
 })
 
 $('#MSOP1_video').mouseover(function(){
@@ -113,7 +117,7 @@ $('#MSOP1_video').mouseover(function(){
     $('.video_cut').css("z-index","20");
     $('.video_cut').css("position","absolute");
     $('.video_cut').css("left","39vw");
-    $('.video_cut').css("top","3120px");
+    $('.video_cut').css("top","3190px");
     
     $('#intro_MSOP01 p').css("opacity","1");
     $('#graySolid').css("height","100vh");
@@ -135,7 +139,7 @@ $('#MSOP1_video').mouseout(function(){
     $('#intro_MSOP01 p').css("opacity","0");
     $('#graySolid').css("height","0vh");
 
-
+    $('.videoIntro').ccs("height","0px");
 })
 
 $('#MSOP2_video').mouseover(function(){
@@ -148,7 +152,7 @@ $('#MSOP2_video').mouseover(function(){
     $('.video_cut2').css("z-index","20");
     $('.video_cut2').css("position","absolute");
     $('.video_cut2').css("left","62.5vw");
-    $('.video_cut2').css("top","3120px");
+    $('.video_cut2').css("top","3190px");
     
     $('#intro_MSOP02 p').css("opacity","1");
     $('#graySolid').css("height","100vh");
@@ -170,7 +174,7 @@ $('#MSOP2_video').mouseout(function(){
     $('#intro_MSOP02 p').css("opacity","0");
     $('#graySolid').css("height","0vh");
 
-
+    $('.videoIntro').ccs("height","0px");
 })
 
 

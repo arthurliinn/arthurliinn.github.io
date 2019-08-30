@@ -346,6 +346,18 @@
 		font-size: 10px;
 		cursor: pointer;
 	}
+	#soundcloud{
+		background: rgb(255, 153, 0);
+	}
+	#github{
+		background:#864de6;
+	}
+	#pixiv{
+		background: #6092c4;
+	}
+	#issuu{
+		background:#f7806f;
+	}
 	#loadingPage{
 		min-width: 100%;
 		min-height: 100%;

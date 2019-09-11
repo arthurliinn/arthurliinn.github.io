@@ -35,7 +35,7 @@ $(window).scroll(function(){
 
 //work introduce
 
-$('#WalledCity_video').mouseover(function(){
+/*$('#WalledCity_video').mouseover(function(){
     $('.videoIntro p').css("display","block");
     $('#intro_walledCity').css("opacity","1");
     $('#intro_walledCity').css("left","38vw");
@@ -178,3 +178,4 @@ $('#MSOP2_video').mouseout(function(){
 })
 
 
+*/

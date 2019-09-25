@@ -233,6 +233,7 @@ h3 {
 
 .portfolio {
   margin-bottom: 200px;
+  width: 90%;
 }
 
 .works {
@@ -336,6 +337,29 @@ footer {
   margin: 35px 16px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .work_img {
+    max-width: 350px;
+    height: 198.33px;
+  }
+  .portfolio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  .works h3 {
+    margin-top: 0px;
+  }
+  .works p {
+    margin-top: 0px;
+    width: 35%;
+  }
+  .btn {
+    margin-right: 15px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .circle {
     width: 300px;
@@ -398,6 +422,8 @@ footer {
   }
   .portfolio {
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   footer {
     height: 600px;

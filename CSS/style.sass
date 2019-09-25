@@ -6,6 +6,7 @@ $maincolor_05: #E29746
 $gray_color: #707070
 
 $phonewide: 480px
+$ipadwidth: 1024px
 *
     position: relative
     //border: solid 1px #000000
@@ -185,6 +186,7 @@ h3
     z-index: 2
 .portfolio
     margin-bottom: 200px
+    width: 90%
 .works
     height: 360px
     padding-bottom: 20px
@@ -247,6 +249,23 @@ footer
     max-width: 68px
     margin: 35px 16px
 
+@media screen and (min-width: $phonewide) and (max-width: $ipadwidth)
+    .work_img
+        max-width: 350px
+        height: 198.33px
+    .portfolio
+        width: 90%
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0px
+    .works
+        h3
+            margin-top: 0px
+        p
+            margin-top: 0px
+            width: 35%
+    .btn
+        margin-right: 15px
 @media screen and (max-width: $phonewide)
 
     .circle
@@ -297,7 +316,8 @@ footer
             margin-top: 0px
     .portfolio
         margin-bottom: 0px
-
+        margin-left: auto
+        margin-right: auto
     footer
         height: 600px
     .footerbtns

@@ -14,6 +14,13 @@ html, body {
   padding: 0;
 }
 
+body {
+  opacity: 0;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  overflow-y: hidden;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -35,28 +42,36 @@ h3 {
 }
 
 .circle {
-  width: 572px;
-  height: 572px;
+  width: 0px;
+  height: 0px;
   position: absolute;
   right: -349px;
   top: 0px;
   border-radius: 9999px;
   border: solid 30px #E29746;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
 }
 
 .stick1, .stick2 {
   position: absolute;
   width: 60px;
   height: 500px;
+  left: -500px;
+  top: 1500px;
   -webkit-transform: rotate(43deg);
           transform: rotate(43deg);
   -webkit-box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.5);
   background-color: #E29746;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  trnasform-origin: center;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
 }
 
 .stick2 {
-  left: -100px;
   background-color: #FFBA6E;
 }
 
@@ -91,6 +106,7 @@ h3 {
 .divcontainer {
   padding-top: 120px;
   padding-bottom: 120px;
+  opacity: 0;
 }
 
 .title {
@@ -268,8 +284,21 @@ h3 {
 }
 
 .work_img {
-  max-width: 570px;
+  width: 510px;
+  height: 289px;
+  margin-top: 10px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.work_img:hover {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  margin-top: 0px;
+  width: 570px;
   height: 320px;
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .work_img_left {

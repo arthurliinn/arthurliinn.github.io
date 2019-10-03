@@ -87,6 +87,10 @@ h3 {
   max-width: 100%;
 }
 
+.namecard img, .namecard h2, .namecard h3, .namecard p {
+  z-index: 20;
+}
+
 .position {
   color: #707070;
   padding-top: 20px;
@@ -397,6 +401,9 @@ footer {
     right: -150px;
     top: -150px;
     border: solid 10px #E29746;
+  }
+  .namecard {
+    top: -10%;
   }
   .namecard img {
     left: -15px;

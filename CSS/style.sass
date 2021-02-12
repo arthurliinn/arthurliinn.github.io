@@ -4,6 +4,7 @@ $maincolor_03: #FFDCB7
 $maincolor_04: #FFBA6E
 $maincolor_05: #E29746
 $gray_color: #707070
+$border_color: #b9b9b9
 
 $phonewide: 480px
 $ipadwidth: 1024px
@@ -23,7 +24,7 @@ html,body
     padding: 0
     
 body
-    opacity: 0
+    // opacity: 0
     transition-duration: 2s
     overflow-y: hidden
 
@@ -92,7 +93,7 @@ h3
 .divcontainer
     padding-top: 120px
     padding-bottom: 120px
-    opacity: 0
+    // opacity: 0
     
 .title
     padding-bottom: 75px
@@ -106,9 +107,8 @@ h3
     padding-top: 45px
     color: $maincolor_05
 .skills
-    
+    height: 750px
     border-bottom: solid 1px $gray_color
-    font-size: 0px
     line-height: 0px
 .skills ul
     line-height: 0px
@@ -116,29 +116,61 @@ h3
     margin-left: auto
     margin-right: auto
 .skill
-    width: 300px
-    height: 300px
+    margin-bottom: 50px
+    padding: 20px
+    width: 80%
+    height: 100px
+    left: 10%
     display: inline-block
-    margin: 0px
-    line-height: normal;
-    img
-        position: absolute
-        max-width: 150px
-        height: auto
-        left: calc(100% - 50% - 75px)
-        top: calc(100% - 50% - 75px)
-.skill_html
-    background-color: #E44D26
-.skill_css
-    background-color: #1758A7
-.skill_js
-    background-color: #FBF058
-.skill_ps
-    background-color: #30267E
-.skill_ai
-    background-color: #3B3323
-.skill_ae
-    background-color: #1F0040
+    line-height: normal
+    border: solid .5px $border_color
+    border-radius: 20px
+    text-align: left
+    overflow: hidden
+    position: absolute
+    transition: .5s
+.skill1
+    background-image: url(../image/img07.png)
+    z-index: 3
+    &:hover
+        height: 320px
+.skill1:hover ~.skill
+    margin-left: 50px
+
+.skill2
+    background-image: url(../image/img08.png)
+    margin-top: 125px
+    z-index: 2
+    &:hover
+        height: 260px
+.skill2:hover ~.skill
+    margin-left: 50px
+
+.skill3
+    background-image: url(../image/img08.png)
+    margin-top: 250px
+    &:hover
+        height: 260px
+
+        
+.skill_cover
+    position: absolute
+    margin: -20px
+    background-color: darken(#fff,85%)
+    opacity: .8
+    width: 100%
+    height: 100%
+.title_skill
+    text-align: left
+    padding-left: 50px
+    color: #fff
+    user-select: none
+
+.skill_intro 
+    color: #fff
+    user-select: none
+    margin: 0 10%
+    margin-top: 25px
 
 .experiences
     max-width: 80%

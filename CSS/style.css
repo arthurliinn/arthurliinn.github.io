@@ -15,7 +15,6 @@ html, body {
 }
 
 body {
-  opacity: 0;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
   overflow-y: hidden;
@@ -110,7 +109,6 @@ h3 {
 .divcontainer {
   padding-top: 120px;
   padding-bottom: 120px;
-  opacity: 0;
 }
 
 .title {
@@ -128,8 +126,8 @@ h3 {
 }
 
 .skills {
+  height: 750px;
   border-bottom: solid 1px #707070;
-  font-size: 0px;
   line-height: 0px;
 }
 
@@ -141,43 +139,85 @@ h3 {
 }
 
 .skill {
-  width: 300px;
-  height: 300px;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 80%;
+  height: 100px;
+  left: 10%;
   display: inline-block;
-  margin: 0px;
   line-height: normal;
-}
-
-.skill img {
+  border: solid 0.5px #b9b9b9;
+  border-radius: 20px;
+  text-align: left;
+  overflow: hidden;
   position: absolute;
-  max-width: 150px;
-  height: auto;
-  left: calc(100% - 50% - 75px);
-  top: calc(100% - 50% - 75px);
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-.skill_html {
-  background-color: #E44D26;
+.skill1 {
+  background-image: url(../image/img07.png);
+  z-index: 3;
 }
 
-.skill_css {
-  background-color: #1758A7;
+.skill1:hover {
+  height: 320px;
 }
 
-.skill_js {
-  background-color: #FBF058;
+.skill1:hover ~ .skill {
+  margin-left: 50px;
 }
 
-.skill_ps {
-  background-color: #30267E;
+.skill2 {
+  background-image: url(../image/img08.png);
+  margin-top: 125px;
+  z-index: 2;
 }
 
-.skill_ai {
-  background-color: #3B3323;
+.skill2:hover {
+  height: 260px;
 }
 
-.skill_ae {
-  background-color: #1F0040;
+.skill2:hover ~ .skill {
+  margin-left: 50px;
+}
+
+.skill3 {
+  background-image: url(../image/img08.png);
+  margin-top: 250px;
+}
+
+.skill3:hover {
+  height: 260px;
+}
+
+.skill_cover {
+  position: absolute;
+  margin: -20px;
+  background-color: #262626;
+  opacity: .8;
+  width: 100%;
+  height: 100%;
+}
+
+.title_skill {
+  text-align: left;
+  padding-left: 50px;
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.skill_intro {
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0 10%;
+  margin-top: 25px;
 }
 
 .experiences {

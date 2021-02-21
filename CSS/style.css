@@ -20,6 +20,8 @@ body {
           transition-duration: 2s;
   overflow-y: hidden;
   overflow-X: hidden;
+  background-image: url(../image/p0068_l.png);
+  background-size: contain;
 }
 
 h1 {
@@ -38,7 +40,6 @@ h3 {
 .nav-container {
   width: 100%;
   height: 100vh;
-  background-color: #FFCA91;
   overflow: hidden;
 }
 
@@ -347,6 +348,8 @@ h3 {
   z-index: 0;
   -webkit-filter: brightness(30%);
           filter: brightness(30%);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .work_img:hover {
@@ -359,11 +362,11 @@ h3 {
   height: 100%;
   position: absolute;
   display: block;
+  padding: 20px;
 }
 
 .works_info h3 {
   margin-top: 20px;
-  margin-left: 50px;
   color: #fff;
   opacity: 0;
   -webkit-transition: .5s;
@@ -373,7 +376,6 @@ h3 {
 }
 
 .works_info p {
-  margin: 0 50px;
   margin-top: 20px;
   color: #fff;
   opacity: 0;
@@ -393,8 +395,13 @@ h3 {
 }
 
 footer {
-  height: 300px;
-  background-color: #E29746;
+  position: fixed;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  background-color: rgba(255, 164, 67, 0.8);
+  bottom: 0;
+  width: 100%;
+  z-index: 4;
 }
 
 .title_connect {
@@ -405,19 +412,20 @@ footer {
   mix-blend-mode: initial;
 }
 
-.footerbtns {
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .btn {
   display: inline-block;
-  min-width: 100px;
-  height: 100px;
-  background-color: #FFDCB7;
   border-radius: 20px;
   margin-right: 38px;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2b1a09;
+}
+
+.btn a:hover {
+  color: #FFCA91;
 }
 
 .btn img {

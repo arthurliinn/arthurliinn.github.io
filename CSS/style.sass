@@ -3,8 +3,11 @@ $maincolor_02: #FFEFDE
 $maincolor_03: #FFDCB7
 $maincolor_04: #FFBA6E
 $maincolor_05: #E29746
+$text_color: #2b1a09
+$maincolor_footer_opacity4: rgba(226, 151, 70, 0.4)
 $gray_color: #707070
 $border_color: #b9b9b9
+$footer_bg: rgba(255, 164, 67, 0.8)
 
 $phonewide: 480px
 $ipadwidth: 1024px
@@ -31,6 +34,8 @@ body
     transition-duration: 2s
     overflow-y: hidden
     overflow-X: hidden
+    background-image: url(../image/p0068_l.png)
+    background-size: contain
 
 h1
     font-size: 40px
@@ -42,14 +47,14 @@ h3
 .nav-container
     width: 100%
     height: 100vh
-    background-color: $maincolor_01
+    // background-color: $maincolor_01
     overflow: hidden
 
 .circle
     width: 0px //572px
     height: 0px //572px
     position: absolute
-    right: -349px;
+    right: -349px
     top: 0px
     border-radius: 9999px
     border: solid 30px $maincolor_05
@@ -291,6 +296,7 @@ h3
     transition-duration: 1s 
     z-index: 0
     filter: brightness(30%)
+    object-fit: cover
     &:hover
         filter: brightness(40%)
 
@@ -299,17 +305,20 @@ h3
     height: 100%
     position: absolute
     display: block
+    padding: 20px
     h3
         margin-top: 20px
-        margin-left: 50px
+        // margin-left: 50px
+        // padding: 20px
         color: #fff
         opacity: 0
         transition: .5s
         text-align: left
         font-size: 15px
     p
-        margin: 0 50px
+        // margin: 0 50px
         margin-top: 20px
+        // padding: 20px
         color: #fff
         opacity: 0
         transition: .5s
@@ -326,8 +335,15 @@ h3
 
 
 footer
-    height: 300px
-    background-color: $maincolor_05
+    position: fixed
+    padding: 0.5rem 0
+    background-color: #fff
+    // height: 300px
+    // background-color: $maincolor_footer_opacity4
+    background-color: $footer_bg
+    bottom: 0
+    width: 100%
+    z-index: 4
 .title_connect
     position: relative
     color: $maincolor_02
@@ -335,16 +351,23 @@ footer
     font-size: 30px
     mix-blend-mode: initial
 .footerbtns
-    height: 100px
-    margin-left: auto
-    margin-right: auto
+    // height: 100px
+    // margin-left: auto
+    // margin-right: auto
 .btn
     display: inline-block
-    min-width: 100px
-    height: 100px
-    background-color: $maincolor_03
+    // min-width: 100px
+    // height: 100px
+    // background-color: $maincolor_03
     border-radius: 20px
     margin-right: 38px
+
+    a
+        text-decoration: none
+        text-transform: uppercase
+        color: $text_color
+        &:hover
+            color: $maincolor_01
     img
         max-width: 60px
         vertical-align: middle

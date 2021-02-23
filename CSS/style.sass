@@ -7,7 +7,14 @@ $text_color: #2b1a09
 $maincolor_footer_opacity4: rgba(226, 151, 70, 0.4)
 $gray_color: #707070
 $border_color: #b9b9b9
-$footer_bg: rgba(255, 164, 67, 0.8)
+$footer_bg: rgba(255, 255, 255, 0.4)
+$vue_color: rgb(65,184,131)
+$js_color: rgb(245,130,51)
+$html_color: rgb(228,77,38)
+$css_color: rgb(0,88,168)
+$sass_color: rgb(205,103,153)
+$bootstrap_color: rgb(86,61,124)
+
 
 $phonewide: 480px
 $ipadwidth: 1024px
@@ -32,11 +39,10 @@ html,body
 body
     // opacity: 0
     transition-duration: 2s
-    overflow-y: hidden
-    overflow-X: hidden
-    background-image: url(../image/p0068_l.png)
-    background-size: contain
 
+    background-image: url(../image/p0127_l.png)
+    background-size: contain
+    
 h1
     font-size: 40px
 h2
@@ -45,8 +51,10 @@ h3
     font-size: 20px
     line-height: 30px
 .nav-container
-    width: 100%
+    width: 85%
+    max-width: 1620px
     height: 100vh
+    margin: 0 auto
     // background-color: $maincolor_01
     overflow: hidden
 
@@ -79,12 +87,12 @@ h3
    
 .namecard
     max-width: 300px
-    margin-left: auto
-    margin-right: auto
     margin-top: 166px
+    // left: 150px
+    display: inline-block
     img
-        left: -35px
-        max-width: 100%
+        // left: -35px
+        max-width: 60%
     img,h2,h3,p
         z-index: 20
 
@@ -92,6 +100,7 @@ h3
     color: $gray_color
     padding-top: 20px
     font-weight: 300
+    font-size: 
 .email
     color: $gray_color
 .container
@@ -107,20 +116,27 @@ h3
 .title
     position: absolute
     width: 100%
-    font-size: 250px
+    font-size: 200px
     white-space: nowrap
     padding-bottom: 75px
-    color: lighten($maincolor_05,30% )
+    color: lighten($maincolor_05,35% )
     mix-blend-mode: multiply
     z-index: 0
 
 .aboutme
-    
-    // border-bottom: solid 1px $gray_color
+    display: inline-block
+    width: 30%
+    p
+        text-align: justify
+
+#about_first_word
+    font-size: 25px
+    font-weight: bold
+
 
 .title_about
 
-    margin-left: -380px
+    margin-left: -700px
     margin-top: -40px
     
 
@@ -129,74 +145,79 @@ h3
     color: $maincolor_05
 .skills
     height: 650px
-    // border-bottom: solid 1px $gray_color
     line-height: 0px
     margin-top: 100px
 .title_skills
     margin-right: 250px
     margin-top: -150px
     text-align: right
+    
 .skills ul
     line-height: 0px
     max-width: 900px
     margin-left: auto
     margin-right: auto
 .skill
+    vertical-align: top
     margin-bottom: 50px
-    padding: 20px
-    width: 80%
-    height: 100px
-    left: 10%
+    padding: 20px 5px
+    margin: 0 20px
+    width: 45%
     display: inline-block
     line-height: normal
-    border: solid .5px $border_color
+    border: solid .5px $maincolor_05
     border-radius: 20px
     text-align: left
     overflow: hidden
-    position: absolute
     transition: .5s
 .skill1
-    background-image: url(../image/img07.png)
+    // background-image: url(../image/img07.png)
     z-index: 3
-    &:hover
-        height: 365px
-.skill1:hover ~.skill
-    margin-left: 50px
 
 .skill2
-    background-image: url(../image/img08.png)
-    margin-top: 125px
+    // background-image: url(../image/img08.png)
     z-index: 2
-    &:hover
-        height: 260px
-.skill2:hover ~.skill
-    margin-left: 50px
 
 .skill3
-    background-image: url(../image/img08.png)
-    margin-top: 250px
-    &:hover
-        height: 220px
+    // background-image: url(../image/img08.png)
 
         
-.skill_cover
-    position: absolute
-    margin: -20px
-    background-color: darken(#fff,85%)
-    opacity: .8
-    width: 100%
-    height: 100%
+// .skill_cover
+//     position: absolute
+//     margin: -20px
+//     background-color: darken(#fff,85%)
+//     opacity: .8
+//     width: 100%
+//     height: 100%
 .title_skill
     text-align: left
     padding-left: 50px
-    color: #fff
+    // color: #fff
     user-select: none
 
 .skill_intro 
-    color: #fff
+    // color: #fff
     user-select: none
     margin: 0 10%
     margin-top: 25px
+    text-align: justify
+
+
+#word_deco_vue
+    color: $vue_color
+#word_deco_js
+    color: $js_color
+#word_deco_html
+    color: $html_color
+#word_deco_css
+    color: $css_color
+#word_deco_sass
+    color: $sass_color
+#word_deco_bootstrap
+    color: $bootstrap_color
+.point_word
+    color: $maincolor_05
+
 
 .experiences
     max-width: 80%
@@ -263,6 +284,7 @@ h3
     top: 15px
     z-index: 2
 .portfolio
+    margin: 0 auto
     margin-bottom: 200px
     // margin-top: 50px
     width: 90%
@@ -273,7 +295,7 @@ h3
     text-align: right
 .works
     min-height: 250px
-    margin-left: 30px
+    margin: 0 15px
     width: 30%
     min-width: 345px
     color: #fff

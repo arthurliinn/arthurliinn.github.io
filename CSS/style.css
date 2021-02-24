@@ -266,19 +266,7 @@ h3 {
   border: solid 2px #E29746;
   border-radius: 9999px;
   left: 66px;
-  top: 20px;
-}
-
-.ex_year {
-  position: absolute;
-  left: 30px;
-  vertical-align: top;
-  top: -10px;
-  font-weight: 900;
-  background-color: #FFDCB7;
-  padding: 10px 20px;
-  border-radius: 100px;
-  color: #FFFFFF;
+  top: 60px;
 }
 
 .ex {
@@ -287,27 +275,38 @@ h3 {
 }
 
 .ex_paragraph {
-  left: 145px;
-  background-color: #FFEFDE;
+  left: 180px;
   padding: 10px 10px;
   width: 80%;
   margin-top: 45px;
-  border-radius: 30px;
-  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   text-align: left;
-  padding-left: 50px;
+  padding: 5px 50px;
+  -webkit-box-shadow: 4px 3px 5px #57575763;
+          box-shadow: 4px 3px 5px #57575763;
+}
+
+.yaer_span {
+  font-size: 25px;
+  color: #ac6e2c;
 }
 
 .ex_triangle {
   position: absolute;
-  width: 0px;
-  border-top: solid 10px transparent;
-  border-bottom: solid 10px transparent;
-  border-right: solid 20px #FFEFDE;
-  left: 130px;
-  top: 15px;
+  width: 100px;
+  border-bottom: solid 1.5px #ac6e2c;
+  left: 110px;
+  top: 30px;
   z-index: 2;
+}
+
+.ex_triangle::before {
+  content: "";
+  display: block;
+  width: 25px;
+  margin-left: -20px;
+  border-bottom: solid 0.5px #ac6e2c;
+  -webkit-transform: rotate(-45deg) translate(-8px, 7px);
+          transform: rotate(-45deg) translate(-8px, 7px);
 }
 
 .portfolio {

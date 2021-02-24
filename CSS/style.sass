@@ -3,6 +3,7 @@ $maincolor_02: #FFEFDE
 $maincolor_03: #FFDCB7
 $maincolor_04: #FFBA6E
 $maincolor_05: #E29746
+$maincolor_06: #ac6e2c
 $text_color: #2b1a09
 $maincolor_footer_opacity4: rgba(226, 151, 70, 0.4)
 $gray_color: #707070
@@ -243,17 +244,8 @@ h3
     border: solid 2px $maincolor_05
     border-radius: 9999px
     left: 66px
-    top: 20px
-.ex_year 
-    position: absolute
-    left: 30px  
-    vertical-align: top  
-    top: -10px
-    font-weight: 900
-    background-color: $maincolor_03
-    padding: 10px 20px
-    border-radius: 100px
-    color: #FFFFFF
+    top: 60px
+
 .ex_p1
     // margin-bottom: 200px
 
@@ -265,24 +257,35 @@ h3
     
         
 .ex_paragraph
-    left: 145px
-    background-color: $maincolor_02
+    left: 180px
     padding: 10px 10px
     width: 80%
     margin-top: 45px
-    border-radius: 30px
-    box-shadow: 0px 3px 10px rgba(0, 0, 0,.2)
     text-align: left
-    padding-left: 50px
+    padding: 5px 50px
+    box-shadow: 4px 3px 5px #57575763
+.yaer_span
+    font-size: 25px
+    color: $maincolor_06
+
+
 .ex_triangle
     position: absolute
-    width: 0px
-    border-top: solid 10px transparent
-    border-bottom: solid 10px transparent
-    border-right: solid 20px $maincolor_02
-    left: 130px
-    top: 15px
+    width: 100px
+    border-bottom: solid 1.5px $maincolor_06
+    left: 110px
+    top: 30px
     z-index: 2
+    &::before
+        content: ""
+        display: block
+        width: 25px
+        margin-left: -20px
+        
+        border-bottom: solid .5px $maincolor_06
+        transform: rotate(-45deg) translate(-8px, 7px)
+        
+    
 .portfolio
     margin: 0 auto
     margin-bottom: 200px

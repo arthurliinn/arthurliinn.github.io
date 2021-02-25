@@ -18,8 +18,9 @@ html, body {
 body {
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
-  background-image: url(../image/p0127_l.png);
-  background-size: contain;
+  background-image: url(../image/p0127_l_960.jpg);
+  background-size: initial;
+  background-repeat: repeat;
 }
 
 h1 {
@@ -347,15 +348,15 @@ h3 {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   z-index: 0;
-  -webkit-filter: brightness(30%);
-          filter: brightness(30%);
+  -webkit-filter: brightness(25%) sepia(100%);
+          filter: brightness(25%) sepia(100%);
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .work_img:hover {
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
 }
 
 .works_info {

@@ -19,6 +19,8 @@ $bootstrap_color: rgb(86,61,124)
 
 $phonewide: 480px
 $ipadwidth: 1024px
+
+
 *
     position: relative
     //border: solid 1px #000000
@@ -26,7 +28,7 @@ $ipadwidth: 1024px
     font-family: 'Noto Sans TC', sans-serif
     margin: 0
     padding: 0
-    line-height: 50px
+    line-height: 2.5rem
     box-sizing: border-box
     letter-spacing: 3px
     
@@ -40,7 +42,7 @@ html,body
 body
     // opacity: 0
     transition-duration: 2s
-
+    overflow-x: hidden
     background-image: url(../image/p0127_l_960.jpg)
     background-size: initial
     background-repeat: repeat
@@ -162,7 +164,7 @@ h3
 .skill
     vertical-align: top
     margin-bottom: 50px
-    padding: 20px 5px
+    padding: 20px 50px
     margin: 0 20px
     width: 45%
     display: inline-block
@@ -193,14 +195,14 @@ h3
 //     height: 100%
 .title_skill
     text-align: left
-    padding-left: 50px
+    // padding-left: 50px
     // color: #fff
     user-select: none
 
 .skill_intro 
     // color: #fff
     user-select: none
-    margin: 0 10%
+    // margin: 0 10%
     margin-top: 25px
     text-align: justify
 
@@ -414,6 +416,42 @@ footer
     margin: 35px 16px
 
 @media screen and (min-width: $phonewide) and (max-width: $ipadwidth)
+    .nav-container
+        width: 100%
+        height: auto
+
+
+    .title
+        display: none
+
+    .namecard
+        margin-top: 70px
+
+    .title_about
+        display: block
+        transform: rotate(90deg)
+        margin: 0
+        left: 250px
+        margin-top: -250px
+        font-size: 150px
+    .aboutme
+        width: 55%
+        display: block
+        margin: 0 auto
+        p
+            text-align: center
+            margin-top: 80px
+
+    .skills
+        margin-top: 0
+
+    .skill_intro
+        font-size: .9em
+
+
+    .experiences
+        margin-top: 0
+
     .work_img
         max-width: 350px
         height: 198.33px

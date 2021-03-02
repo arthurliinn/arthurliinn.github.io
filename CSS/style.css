@@ -324,7 +324,7 @@ h3 {
 
 .works {
   min-height: 250px;
-  margin: 0 15px;
+  margin: 7.5px;
   width: 30%;
   min-width: 345px;
   color: #fff;
@@ -367,7 +367,6 @@ h3 {
 }
 
 .works_info h3 {
-  margin-top: 20px;
   color: #fff;
   opacity: 0;
   -webkit-transition: .5s;
